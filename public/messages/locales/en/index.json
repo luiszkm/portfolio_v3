@@ -1,0 +1,35 @@
+{
+  "Index": {
+    "title": "Hello world!",
+    "greeting": "Hello world!",
+    "about": "About me ",
+    "role": "Web Developer",
+    "location": "Contagem, MG, Brazil",
+    "presentation": "JavaScript web developer focusing on ReactJs and NodeJs, I'm always looking for new experiences and learning for my professional and mainly personal development. Graduating in Information Systems, passionate about challenges and technologies, musician in his spare time.",
+    "pretense": "I am always looking to improve my knowledge according to market demand, in addition to being looking for Specialization in the JavaScript and Typescript ecosystem and also in English fluency"
+  },
+  "Header": {
+    "about": "About me ",
+    "skills": "Skills",
+    "hobbies": "Hobbies",
+    "formation": "Formation",
+    "projects": "Projects"
+  },
+  "Projects": {
+    "descriptionCoffeeDelivery": [
+      "Application of a fictitious coffee shop, which contains the following functionalities:",
+      "List of products (coffees) available for purchase",
+      "Add a specific quantity of items to the cart",
+      "Increase or remove the quantity of items in the cart",
+      "Form for user to fill in with validation",
+      "Display total items in cart in Header",
+      "Display the total value of the sum of items in the cart multiplied by the value"
+    ],
+    "descriptionGitHubBlog": [
+      "Application that consumes the github API, which contains the following functionalities:",
+      "Profile listing, picture, number of followers, name, and other information available via the GitHub API.)",
+      "List and filter all issues in the repository with a short summary of its contents",
+      "Create a page to display a complete post (issue)"
+    ]
+  }
+}

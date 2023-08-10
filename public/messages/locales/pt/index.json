@@ -1,0 +1,34 @@
+{
+  "Index": {
+    "title": "Ola Mundo",
+    "about": "Sobre Mim",
+    "role": "Desenvolvedor Web",
+    "location": "Contagem, MG, Brasil",
+    "presentation": "Desenvolvedor web JavaScript com foco em ReactJs e NodeJs, estou sempre em busca de novas experiências e aprendizados para meu desenvolvimento profissional e principalmente pessoal. Graduando em Sistemas de Informação, apaixonado por desafios e tecnologias, músico nas horas vagas.",
+    "pretense": "Estou sempre em busca de aperfeiçoar meus conhecimentos de acordo com a demanda do mercado, além de estar buscando a Especialização do ecossistema JavaScript e Typescript e também da fluência do inglês"
+  },
+  "Header": {
+    "about": "Sobre Mim",
+    "skills": "skills",
+    "hobbies": "hobbies",
+    "formation": "Formação",
+    "projects": "Projetos"
+  },
+  "Projects": {
+    "descriptionCoffeeDelivery": [
+      "Aplicação de uma cafeteria fictícia, que contém as seguintes funcionalidades:",
+      "Listagem de produtos (cafés) disponíveis para comprar",
+      "Adicionar uma quantidade específicas de itens no carrinho",
+      "Aumentar ou remover a quantidade de itens no carrinho",
+      "Formulário para o usuário preencher com validação",
+      "Exibir o total de itens no carrinho no Header",
+      "Exibir o valor total da soma de itens no carrinho multiplicados pelo valor"
+    ],
+    "descriptionGitHubBlog": [
+      "Aplicação que consome a API do github, que contém as seguintes funcionalidades:",
+      "Listagem do perfil , imagem, número de seguidores, nome e outras informações disponíveis pela API do GitHub.)",
+      "Listar e filtrar todas as issues do repositório com um pequeno resumo do conteúdo dela",
+      "Criar uma página para exibir um post (issue) completo"
+    ]
+  }
+}
