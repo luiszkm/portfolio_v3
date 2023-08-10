@@ -7,6 +7,7 @@ import { DarkModeButton } from './DarkMode'
 import { useTranslations } from 'next-intl'
 import { useContext } from 'react'
 import { menuContext } from '../contexts/menuContext'
+import Link from 'next/link'
 
 export function Header() {
   const { handleMenu, menu } = useContext(menuContext)
@@ -48,13 +49,9 @@ export function Header() {
             </button>
           </li>
           <li className="hover:text-white">
-            <button
-              onClick={() => {
-                handleMenu('projects')
-              }}
-            >
+            <Link href={"/projects"}   >
               {t('projects')}
-            </button>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -3,9 +3,10 @@ import { useRouter, useParams } from 'next/navigation'
 
 export function LanguageSwitcher() {
   const params = useParams();
-  const enInactivated = params.locale === 'en' ? true : false;
+  const enInactivated = params.locale === 'en';
   const {replace, } = useRouter();
-
+  console.log(params);
+  
   const handleLocaleChange = (language: string) => {
     replace(language)
  
