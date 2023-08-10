@@ -1,5 +1,4 @@
-import { useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router'
+import { useTranslations } from 'next-intl'
 import { AiFillGithub, AiOutlineLinkedin, AiOutlineInstagram, AiOutlineFileDone } from 'react-icons/ai'
 import { HiLocationMarker } from 'react-icons/hi'
 import { Avatar } from './Avatar'
@@ -9,7 +8,7 @@ import { Stacks } from './Stacks';
 
 export function Card() {
 
-  const { t } = useTranslation("common");
+  const  t  = useTranslations("Index");
 
 
   return (

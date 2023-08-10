@@ -1,8 +1,14 @@
 'use client';
  
 import {useTranslations} from 'next-intl';
+import { Card } from '../components/Card';
  
 export default function Index() {
+ 
   const t = useTranslations('Index');
-  return <h1>{t('title')}</h1>;
+  return(
+    <div>
+       <Card />
+    </div>
+  )
 }

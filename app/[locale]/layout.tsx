@@ -2,11 +2,10 @@ import { NextIntlClientProvider } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
-import { ThemeProvider } from 'next-themes'
 import { Providers } from '../components/Provider'
-
+import '../globals.css'
 export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'de' }]
+  return [{ locale: 'en' }, { locale: 'pt' }]
 }
 
 interface ILocaleLayout {
@@ -31,14 +30,13 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="flex flex-col items-center min-h-screen">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          
           <Providers>
-          <Header />
-            {children}<Footer />
-            </Providers>
-          
+            <Header />
+            {children}
+            <Footer />
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>

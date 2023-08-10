@@ -34,14 +34,6 @@ export function DarkModeButton() {
   };
   return (
     <div>
-      {/* {
-      !darkMode ? 
-      <HiOutlineSun className="cursor-pointer"
-       onClick={()=> setDarkMode(true)} /> 
-      : 
-      <HiOutlineMoon className="cursor-pointer"
-       onClick={()=> setDarkMode(false)} />
-      } */}
       {renderThemeChanger()}
     </div>
   )
