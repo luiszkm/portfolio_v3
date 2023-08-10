@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useTranslation } from "next-i18next";
+import { useTranslations } from "next-intl";
 import { ButtonLink } from "./ButtonLink";
 import { BsCheck2All } from 'react-icons/bs'
 interface MainPRojectsProps {
@@ -8,13 +8,13 @@ interface MainPRojectsProps {
   urlDemo: string;
   name: string;
   frontend: string[] | undefined;
-  description: string | []
+  description: [] | any;
 }
 
 export function MainProjects({ description, frontend, name, urlDemo, urlGithub, urlImage }: MainPRojectsProps) {
-  const { t } = useTranslation("common");
+  const  t  = useTranslations("Projects");
  
-  const descriptions : string[] = t(description, { returnObjects: true }) || []
+  const descriptions: string[]  = t(description, { returnObjects: true }) || []
 
 
   return (

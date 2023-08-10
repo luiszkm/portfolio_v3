@@ -1,21 +1,15 @@
 'use client'
 import { useRouter, useParams } from 'next/navigation'
-import { useState } from 'react';
-
 
 export function LanguageSwitcher() {
   const params = useParams();
   const enInactivated = params.locale === 'en' ? true : false;
-  const [enActive, setEnActive] = useState<Boolean>(enInactivated)
-  console.log(params)
-  const {replace, prefetch} = useRouter();
+  const {replace, } = useRouter();
 
   const handleLocaleChange = (language: string) => {
     replace(language)
  
   };
-  console.log(enActive, enInactivated);
-  
   
   return (
     <div className="flex items-center gap-3">
