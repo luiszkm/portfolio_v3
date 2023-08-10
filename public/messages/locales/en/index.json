@@ -15,6 +15,9 @@
     "formation": "Formation",
     "projects": "Projects"
   },
+  "Skills":{
+    
+  },
   "Projects": {
     "descriptionCoffeeDelivery": [
       "Application of a fictitious coffee shop, which contains the following functionalities:",
