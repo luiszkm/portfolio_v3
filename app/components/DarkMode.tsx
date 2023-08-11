@@ -18,7 +18,6 @@ export function DarkModeButton() {
     if (!mounted) return null;
 
     const currentTheme = theme === "system" ? systemTheme : theme;
-    console.log(theme);
     
     if (currentTheme === "dark") {
       return (

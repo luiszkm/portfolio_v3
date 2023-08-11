@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { useTranslation } from "next-i18next";
+import { useTranslations } from "next-intl";
 
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
@@ -7,7 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 
 export function NavMenu() {
   const [showMenu, setShowMenu] = useState(false)
-  const { t } = useTranslation("header");
+  const t  = useTranslations("Header");
   try {
     const body: any = document.querySelector('body')
     showMenu ? body.className = 'overflow-hidden' : body.className = 'overflow-auto'

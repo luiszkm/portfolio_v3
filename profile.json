@@ -1,0 +1,112 @@
+{
+  "formations": [
+    {
+      "institution": "RocketSeat",
+      "date": "2022",
+      "name": "Explorer",
+      "url": "https://app.rocketseat.com.br/explorer/certificates/498f92e9-e42a-40cb-acf4-e9ace5926991"
+    },
+    {
+      "institution": "RocketSeat",
+      "date": "2023",
+      "name": "Ignite-React",
+      "url": "https://app.rocketseat.com.br/certificates/d01bdfc8-c6e2-4318-873e-5eacb658dc71"
+    }
+  ],
+  "sills": {
+    "frontend": [
+      {
+        "tachName": "html",
+        "affinity": 90
+      },
+      {
+        "tachName": "css",
+        "affinity": 90
+      },
+      {
+        "tachName": "tailwind",
+        "affinity": 80
+      },
+      {
+        "tachName": "javascript",
+        "affinity": 80
+      },
+      {
+        "tachName": "typescript",
+        "affinity": 60
+      },
+      {
+        "tachName": "ReactJs",
+        "affinity": 80
+      },
+      {
+        "tachName": "hook-form",
+        "affinity": 65
+      },
+      {
+        "tachName": "Next",
+        "affinity": 50
+      }
+    ],
+    "backend": [
+      {
+        "tachName": "javascript",
+        "affinity": 80
+      },
+      {
+        "tachName": "typescript",
+        "affinity": 60
+      },
+      {
+        "tachName": "NodeJs",
+        "affinity": 60
+      },
+      {
+        "tachName": "SQL",
+        "affinity": 65
+      },
+      {
+        "tachName": "Express",
+        "affinity": 60
+      },
+      {
+        "tachName": "prisma",
+        "affinity": 50
+      }
+    ]
+  },
+  "projects": [
+    {
+      "urlImage": "https://portfolioluis.s3.sa-east-1.amazonaws.com/coffee-delivery.png",
+      "urlGithub": "https://github.com/luiszkm/CoffeeDeleivery",
+      "urlDemo": "https://coffee-deleivery.vercel.app/",
+      "name": "Coffee Delivery",
+      
+        "frontend": [
+          "React",
+          "HTML",
+          "Tailwind",
+          "typescript",
+          "react-hook-form",
+          "react-router-dom"
+        ],
+      
+      "description":"descriptionCoffeeDelivery"
+    },
+    {
+      "urlImage": "https://portfolioluis.s3.sa-east-1.amazonaws.com/github-blog.png",
+      "urlGithub": "https://github.com/luiszkm/GitHubBlog",
+      "urlDemo": "https://git-hub-blog-three.vercel.app/",
+      "name": "Github Blog",
+      "frontend": [
+        "React",
+        "Fetch / Axios",
+        "Tailwind",
+        "typescript",
+        "react-hook-form",
+        "react-router-dom"
+      ],
+      "description": "descriptionGitHubBlog"
+    }
+  ]
+}
