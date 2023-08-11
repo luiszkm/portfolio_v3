@@ -22,31 +22,31 @@ export function Header() {
       <nav className="hidden md:flex">
         <ul className="flex gap-6 font-bold text-center cursor-pointer">
           <li className="hover:text-white">
-            <button
+            <Link href={"/"}  
               onClick={() => {
                 handleMenu('home')
               }}
             >
               {t('about')}
-            </button>
+            </Link>
           </li>
           <li className="hover:text-white">
-            <button
+            <Link href={"/"}
               onClick={() => {
                 handleMenu('skills')
               }}
             >
               {t('skills')}
-            </button>
+            </Link>
           </li>
           <li className="hover:text-white">
-            <button
+            <Link href={"/"}
               onClick={() => {
                 handleMenu('formation')
               }}
             >
               {t('formation')}
-            </button>
+            </Link>
           </li>
           <li className="hover:text-white">
             <Link href={"/projects"}   >
