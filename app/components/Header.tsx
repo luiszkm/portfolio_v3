@@ -12,7 +12,8 @@ import Link from 'next/link'
 export function Header() {
   const { handleMenu, menu } = useContext(menuContext)
   const t = useTranslations('Header')
-
+  
+  
   return (
     <header className="w-full  h-16 flex items-center justify-between px-4 bg-gradient-to-tl from-cyan-900 via-cyan-600 to-cyan-200 dark:from-gray-900">
       <div className="flex items-center gap-4">

@@ -30,7 +30,18 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className="flex flex-col items-center min-h-screen">
+      <body
+        className="
+        m-auto
+        
+       flex
+       flex-col
+       max-w-screen-xl
+       justify-between 
+       items-center
+       min-h-screen"
+
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>
             <Header />

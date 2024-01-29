@@ -18,7 +18,7 @@ export function Card() {
       <Avatar />
       <strong>Luis Soares</strong>
       <div className='flex flex-col items-center'>
-        <span className='flex flex-col items-center'>{t("role")} <span>JavaScript</span> </span>
+        <span className='flex flex-col items-center'>{t("role")} <span>C# | .NET | Typescript</span> </span>
       </div>
 
       <span className='flex items-center gap-4'><HiLocationMarker /> {t("location")} </span>
