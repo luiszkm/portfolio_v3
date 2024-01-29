@@ -1,4 +1,4 @@
-import { CardProject } from "@/app/components/cardProject";
+import { CardProject } from '@/app/components/CardProject';
 import profile from '../../../profile.json'
 import { MainProjects } from "@/app/components/MainProjects";
 
@@ -7,8 +7,7 @@ export default function Projects () {
   
   return (
     <div className="min-h-full">
-      <div className="flex gap-5 flex-col" >
-        <h1 className="text-4xl font-bold text-center">Project Name</h1>
+      <div className="flex gap-5 max-xl:flex-col" >
         {profile.projects.map(project => (
               <MainProjects
                 key={project.name}

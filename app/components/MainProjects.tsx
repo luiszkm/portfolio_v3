@@ -24,15 +24,15 @@ export function MainProjects({
   const descriptions = ['feat1', 'feat2', 'feat3', 'feat4', 'feat5']
   return (
    
-      <div className="w-full max-w-2xl flex flex-col items-center ">
+      <div className="w-full max-w-2xl flex flex-col  items-center ">
 
         <img className="rounded-t-2xl object-contain  w-full h-80" width={265} height={256}
           src={`${urlImage}`} alt="" />
 
-        <div className="h-1 w-full  bg-gradient-to-tl from-cyan-900 via-cyan-600 to-cyan-200
-     dark:from-purple-800 dark:via-Fuchsia-800 dark:to-pink-700"></div>
+        <div className="h-1 w-full  bg-gradient-to-tl 
+     from-purple-800 via-Fuchsia-800 to-pink-700"></div>
 
-        <div className="w-full flex flex-col items-center gap-4 p-3 rounded-b-2xl bg-gradient-to-t from-gray-800 via-gray-400 to-gray-100
+        <div className="w-full min-h-[412px]  flex flex-col items-center gap-4 p-3 rounded-b-2xl bg-gradient-to-t from-gray-300 via-gray-200 to-gray-100
          dark:from-gray-800 dark:to-gray-700 dark:via-gray-800">
 
           <div>
@@ -59,7 +59,7 @@ export function MainProjects({
 
           </div>
 
-          <div className="flex flex-col items-center gap-3 md:flex-row md:gap-8">
+          <div className="flex flex-col gap-3 md:flex-row md:gap-8">
 
             <ButtonLink PRIMARY PrimaryUrl={urlGithub} />
             <ButtonLink SecondaryUrl={urlDemo} />
