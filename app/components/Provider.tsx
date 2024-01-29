@@ -2,9 +2,17 @@
 
 import { ThemeProvider } from 'next-themes'
 import { MenuProvider } from '../contexts/menuContext'
-export function Providers({ children }: { children: React.ReactNode }) {
+import { type ThemeProviderProps } from "next-themes/dist/types"
+
+export function Providers({ children , ...props}: ThemeProviderProps) {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
+    <ThemeProvider 
+    enableSystem={true} 
+    attribute="class"
+    defaultTheme="system"
+    disableTransitionOnChange
+    
+    >
       <MenuProvider>{children}</MenuProvider>
     </ThemeProvider>
   )

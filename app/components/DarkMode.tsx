@@ -10,13 +10,14 @@ export function DarkModeButton() {
 
   const [mounted, setMounted] = useState(false);
 
+ 
+
   useEffect(() => {
     setMounted(true);
   }, [])
 
   const renderThemeChanger = () => {
     if (!mounted) return null;
-
     const currentTheme = theme === "system" ? systemTheme : theme;
     
     if (currentTheme === "dark") {

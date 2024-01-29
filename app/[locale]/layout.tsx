@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { Providers } from '../components/Provider'
+
 import '../globals.css'
 export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'pt' }]
@@ -30,7 +31,18 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className="flex flex-col items-center min-h-screen">
+      <body
+        className="
+        bg-gray-100
+          dark:bg-black
+        m-auto
+       flex
+       flex-col
+       max-w-screen-xl
+       justify-between 
+       items-center
+       min-h-screen"
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>
             <Header />

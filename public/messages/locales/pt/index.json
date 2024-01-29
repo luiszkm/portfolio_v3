@@ -2,10 +2,10 @@
   "Index": {
     "title": "Ola Mundo",
     "about": "Sobre Mim",
-    "role": "Desenvolvedor Web",
+    "role": "Desenvolvedor .NET",
     "location": "Contagem, MG, Brasil",
-    "presentation": "Desenvolvedor web JavaScript com foco em ReactJs e NodeJs, estou sempre em busca de novas experiências e aprendizados para meu desenvolvimento profissional e principalmente pessoal. Graduando em Sistemas de Informação, apaixonado por desafios e tecnologias, músico nas horas vagas.",
-    "pretense": "Estou sempre em busca de aperfeiçoar meus conhecimentos de acordo com a demanda do mercado, além de estar buscando a Especialização do ecossistema JavaScript e Typescript e também da fluência do inglês"
+    "presentation": "Desenvolvedor .NET com foco em ReactJs/ NextJs e tailwind no front-end e C#/.Net no back-end, estou sempre em busca de novas experiências e aprendizados para meu desenvolvimento profissional e principalmente pessoal. Graduando em Sistemas de Informação, apaixonado por desafios e tecnologias, músico nas horas vagas.",
+    "pretense": "Estou sempre em busca de aperfeiçoar meus conhecimentos de acordo com a demanda do mercado, além de estar buscando a Especialização do ecossistema .NET e também da fluência do inglês"
   },
   "Header": {
     "about": "Sobre Mim",
@@ -15,20 +15,19 @@
     "projects": "Projetos"
   },
   "Projects": {
-    "descriptionCoffeeDelivery": [
-      "Aplicação de uma cafeteria fictícia, que contém as seguintes funcionalidades:",
-      "Listagem de produtos (cafés) disponíveis para comprar",
-      "Adicionar uma quantidade específicas de itens no carrinho",
-      "Aumentar ou remover a quantidade de itens no carrinho",
-      "Formulário para o usuário preencher com validação",
-      "Exibir o total de itens no carrinho no Header",
-      "Exibir o valor total da soma de itens no carrinho multiplicados pelo valor"
-    ],
-    "descriptionGitHubBlog": [
-      "Aplicação que consome a API do github, que contém as seguintes funcionalidades:",
-      "Listagem do perfil , imagem, número de seguidores, nome e outras informações disponíveis pela API do GitHub.)",
-      "Listar e filtrar todas as issues do repositório com um pequeno resumo do conteúdo dela",
-      "Criar uma página para exibir um post (issue) completo"
-    ]
+    "descriptionCoffeeDelivery": {
+      "feat1": "Aplicação de uma cafeteria fictícia, que contém as seguintes funcionalidades:",
+      "feat2": "Listagem de produtos (cafés) disponíveis para comprar",
+      "feat3": "Adicionar uma quantidade específicas de itens no carrinho e xibir o total de itens no carrinho no Header",
+      "feat4": "Aumentar ou remover a quantidade de itens no carrinho, e exibir o valor total da soma de itens no carrinho multiplicados pelo valor",
+      "feat5": "Formulário para o usuário preencher com validação"
+    },
+    "descriptionGitHubBlog": {
+      "feat1": "Aplicação que consome a API do github, que contém as seguintes funcionalidades:",
+      "feat2": "Listagem do perfil , imagem, número de seguidores, nome e outras informações disponíveis pela API do GitHub.)",
+      "feat3": "Listar e filtrar todas as issues do repositório com um pequeno resumo do conteúdo dela",
+      "feat4": "Criar uma página para exibir um post (issue) completo",
+      "feat5": "Exibir sua foto no Gihub no blogue"
+    }
   }
 }

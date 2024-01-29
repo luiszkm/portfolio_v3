@@ -13,20 +13,20 @@ export function Card() {
 
   return (
     <div className='w-full max-w-sm p-7 h-[480px] z-10 flex flex-col items-center justify-between
-    rounded-2xl  bg-gradient-to-b from-gray-900 via-gray-400 to-gray-100 
+    rounded-2xl  bg-gradient-to-b from-gray-300 via-gray-200 to-gray-100 
     dark:from-gray-800 dark:to-gray-700 dark:via-gray-800'>
       <Avatar />
       <strong>Luis Soares</strong>
       <div className='flex flex-col items-center'>
-        <span className='flex flex-col items-center'>{t("role")} <span>JavaScript</span> </span>
+        <span className='flex flex-col items-center'>{t("role")} <span>C# | .NET | Typescript</span> </span>
       </div>
 
       <span className='flex items-center gap-4'><HiLocationMarker /> {t("location")} </span>
 
       <Stacks />
       <nav className=' w-full flex flex-col items-center'>
-        <div className=' w-full h-1 bg-gradient-to-tl rounded-t-full from-cyan-900 via-cyan-600 to-cyan-200
-        dark:from-purple-800 dark:via-Fuchsia-800 dark:to-pink-700'></div>
+        <div className=' w-full h-1 bg-gradient-to-tl rounded-t-full 
+        from-purple-800 via-Fuchsia-800 to-pink-700'></div>
 
       <div className=' w-full flex items-center justify-center py-2 gap-4'>
       <a href="https://github.com/luiszkm"
