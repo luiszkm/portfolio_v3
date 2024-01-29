@@ -3,8 +3,8 @@ import { notFound } from 'next/navigation'
 import { Footer } from '../../components/Footer'
 import { Header } from '../../components/Header'
 import { Providers } from '../../components/Provider'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 import '../globals.css'
 export function generateStaticParams() {
@@ -49,11 +49,12 @@ export default async function LocaleLayout({
           <Providers>
             <Header />
             {children}
-            <Analytics />
-            <SpeedInsights />
+
             <Footer />
           </Providers>
         </NextIntlClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
