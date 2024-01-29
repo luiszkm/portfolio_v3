@@ -32,7 +32,8 @@ export function MainProjects({
         <div className="h-1 w-full  bg-gradient-to-tl 
      from-purple-800 via-Fuchsia-800 to-pink-700"></div>
 
-        <div className="w-full min-h-[412px]  flex flex-col items-center gap-4 p-3 rounded-b-2xl bg-gradient-to-t from-gray-300 via-gray-200 to-gray-100
+        <div className="w-full min-h-[412px]  flex flex-col justify-between
+         items-center gap-4 p-3 rounded-b-2xl bg-gradient-to-t from-gray-300 via-gray-200 to-gray-100
          dark:from-gray-800 dark:to-gray-700 dark:via-gray-800">
 
           <div>
