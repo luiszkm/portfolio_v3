@@ -12,7 +12,7 @@ export default function Index() {
 
   const t = useTranslations('Index')
   return (
-    <div className="flex items-center gap-4 p-3 w-full ">
+    <div className="flex flex-col md:flex-row items-center gap-4 p-3 w-full ">
       <Card />
       {context.menu === 'home' ? <About /> : <Skills />}
 
