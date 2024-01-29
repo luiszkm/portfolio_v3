@@ -1,11 +1,11 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
-import { Card } from '../components/Card'
+import { Card } from '../../components/Card'
 import { useContext } from 'react'
 import { menuContext } from '../contexts/menuContext'
-import { About } from '../components/About'
-import { Skills } from '../components/Skills'
+import { About } from '../../components/About'
+import { Skills } from '../../components/Skills'
 
 export default function Index() {
   const context = useContext(menuContext)
