@@ -3,14 +3,22 @@ import { notFound } from 'next/navigation'
 import { Footer } from '../../components/Footer'
 import { Header } from '../../components/Header'
 import { Providers } from '../../components/Provider'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 import '../globals.css'
+import { Metadata } from 'next'
 export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'pt' }]
 }
+export const metadata: Metadata = {
+  title: 'Home',
+  authors: [{ name: 'Luis Soares' ,url: 'http://devsoares.com'}],
+  keywords: ['Portfolio', 'Dev', 'Web', 'Developer', 'Software', 'Engineer'],
+  
+  description: 'Portfolio desenvolvedor web'
 
+}
 interface ILocaleLayout {
   children: React.ReactNode
   params: {
@@ -33,6 +41,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+     
       <body
         className="
         bg-gray-100
@@ -49,11 +58,12 @@ export default async function LocaleLayout({
           <Providers>
             <Header />
             {children}
-            <Analytics />
-            <SpeedInsights />
+
             <Footer />
           </Providers>
         </NextIntlClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
