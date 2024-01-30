@@ -20,7 +20,7 @@ export function ButtonLink({
     <motion.a
       animate={{ x: 0, opacity: 1 }}
       initial={{ x: -40, opacity: 0 }}
-      transition={{ duration: 1, type: 'tween', stiffness: 50 }}
+      transition={{ duration: 1, type: 'tween' }}
       whileTap={{ scale: 1.2 }}
       whileFocus={{ scale: 1.2 }}
       whileHover={{ scale: 1.1 }}
@@ -47,7 +47,7 @@ export function ButtonLink({
     <motion.a
       animate={{ x: 0, opacity: 1 }}
       initial={{ x: 40, opacity: 0 }}
-      transition={{ duration: 1, type: 'tween', stiffness: 60 }}
+      transition={{ duration: 1, type: 'tween'}}
       whileTap={{ scale: 1.2 }}
       whileFocus={{ scale: 1.2 }}
       whileHover={{ scale: 1.1 }}
