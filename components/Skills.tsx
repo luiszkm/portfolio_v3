@@ -20,7 +20,7 @@ export function Skills() {
           <motion.strong
             animate={{ x: 0 , opacity: 1 }}
             initial={{ x: -20, opacity: 0 }}
-            transition={{ duration: 1, type: 'tween', stiffness: 50 }}
+            transition={{ duration: 1, type: 'tween' }}
           >
             Back-End
           </motion.strong>
@@ -65,7 +65,7 @@ export function Skills() {
           <motion.strong
                animate={{ x: 0 , opacity: 1 }}
                initial={{ x: -20, opacity: 0 }}
-            transition={{ duration: 1, type: 'tween', stiffness: 50 }}
+            transition={{ duration: 1, type: 'tween'}}
           >
             Front-End
           </motion.strong>
@@ -96,7 +96,7 @@ export function Skills() {
           <motion.strong
                 animate={{ x: 0 , opacity: 1 }}
                 initial={{ x: -20, opacity: 0 }}
-            transition={{ duration: 1, type: 'tween', stiffness: 50 }}
+            transition={{ duration: 1, type: 'tween' }}
           >
             Devops
           </motion.strong>
