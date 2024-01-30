@@ -6,23 +6,25 @@ export function Skills() {
 
   return (
     <div
-      className="md:h-[424px]  w-full flex items-center justify-center rounded-2xl p-2 md:mt-14 bg-gradient-to-br 
+      className="md:h-[424px]  w-full flex items-center justify-center rounded-2xl p-1 md:mt-14 bg-gradient-to-br 
     from-purple-800 via-Fuchsia-800 to-pink-700"
     >
       <section
-        className=" h-full w-full rounded-2xl p-4 bg-white flex 
+        className=" h-full w-full rounded-2xl p-4 
+        bg-gradient-to-b from-gray-200 via-gray-100 to-gray-100
+         flex  font-semibold
         items-center flex-row gap-5
       dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-700 dark:via-gray-800"
       >
         <div className="w-full h-full flex flex-col gap-3">
           <motion.strong
             animate={{ x: 0 , opacity: 1 }}
-            initial={{ x: -40, opacity: 0 }}
+            initial={{ x: -20, opacity: 0 }}
             transition={{ duration: 1, type: 'tween', stiffness: 50 }}
           >
             Back-End
           </motion.strong>
-          <div className="flex gap-2 items-center ">
+          <div className="flex gap-2 items-center  ">
             <span>C#</span>
             <Progress value={100} />
           </div>
@@ -62,7 +64,7 @@ export function Skills() {
         <div className="w-full h-full  flex flex-col gap-3">
           <motion.strong
                animate={{ x: 0 , opacity: 1 }}
-               initial={{ x: -40, opacity: 0 }}
+               initial={{ x: -20, opacity: 0 }}
             transition={{ duration: 1, type: 'tween', stiffness: 50 }}
           >
             Front-End
@@ -93,7 +95,7 @@ export function Skills() {
           </div>
           <motion.strong
                 animate={{ x: 0 , opacity: 1 }}
-                initial={{ x: -40, opacity: 0 }}
+                initial={{ x: -20, opacity: 0 }}
             transition={{ duration: 1, type: 'tween', stiffness: 50 }}
           >
             Devops

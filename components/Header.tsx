@@ -27,17 +27,25 @@ export function Header() {
       </div>
       <nav className="hidden md:flex">
         <ul className="flex gap-6 font-bold text-center cursor-pointer">
-          <li className="">
-            <Link
-              href={'/'}
-              onClick={() => {
-                handleMenu('home')
-              }}
-            >
-              {t('about')}
-            </Link>
-          </li>
-          <li className="">
+            <li
+              className="relative group">
+              <Link
+                className=""
+                href={'/'}
+                onClick={() => {
+                  handleMenu('home')
+                }}
+              >
+                {t('about')}
+              </Link>
+              <div
+                className="w-0 h-0.5 m-auto bg-pink-700
+                transition-all duration-500 ease-in-out
+                 group-hover:w-full "
+              />
+            </li>
+        
+          <li className="relative group">
             <Link
               href={'/'}
               onClick={() => {
@@ -46,9 +54,19 @@ export function Header() {
             >
               {t('skills')}
             </Link>
+            <div
+                className="w-0 h-0.5 m-auto bg-pink-700
+                transition-all duration-500 ease-in-out
+                 group-hover:w-full "
+              />
           </li>
-          <li className="">
+          <li className="relative group">
             <Link href={'/projects'}>{t('projects')}</Link>
+            <div
+                className="w-0 h-0.5 m-auto bg-pink-700
+                transition-all duration-500 ease-in-out
+                 group-hover:w-full "
+              />
           </li>
         </ul>
       </nav>
