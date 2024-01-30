@@ -48,16 +48,6 @@ export function Header() {
             </Link>
           </li>
           <li className="">
-            <Link
-              href={'/'}
-              onClick={() => {
-                handleMenu('formation')
-              }}
-            >
-              {t('formation')}
-            </Link>
-          </li>
-          <li className="">
             <Link href={'/projects'}>{t('projects')}</Link>
           </li>
         </ul>
