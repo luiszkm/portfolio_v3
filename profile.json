@@ -13,71 +13,9 @@
       "url": "https://app.rocketseat.com.br/certificates/d01bdfc8-c6e2-4318-873e-5eacb658dc71"
     }
   ],
-  "sills": {
-    "frontend": [
-      {
-        "tachName": "html",
-        "affinity": 90
-      },
-      {
-        "tachName": "css",
-        "affinity": 90
-      },
-      {
-        "tachName": "tailwind",
-        "affinity": 80
-      },
-      {
-        "tachName": "javascript",
-        "affinity": 80
-      },
-      {
-        "tachName": "typescript",
-        "affinity": 60
-      },
-      {
-        "tachName": "ReactJs",
-        "affinity": 80
-      },
-      {
-        "tachName": "hook-form",
-        "affinity": 65
-      },
-      {
-        "tachName": "Next",
-        "affinity": 50
-      }
-    ],
-    "backend": [
-      {
-        "tachName": "javascript",
-        "affinity": 80
-      },
-      {
-        "tachName": "typescript",
-        "affinity": 60
-      },
-      {
-        "tachName": "NodeJs",
-        "affinity": 60
-      },
-      {
-        "tachName": "SQL",
-        "affinity": 65
-      },
-      {
-        "tachName": "Express",
-        "affinity": 60
-      },
-      {
-        "tachName": "prisma",
-        "affinity": 50
-      }
-    ]
-  },
   "projects": [
     {
-      "urlImage": "https://portfolioluis.s3.sa-east-1.amazonaws.com/coffee-delivery.png",
+      "urlImage": "https://raw.githubusercontent.com/luiszkm/Imagens/main/portfolio/images/coffee-delivery.png",
       "urlGithub": "https://github.com/luiszkm/CoffeeDeleivery",
       "urlDemo": "https://coffee-deleivery.vercel.app/",
       "name": "Coffee Delivery",
@@ -94,7 +32,7 @@
       "description":"descriptionCoffeeDelivery"
     },
     {
-      "urlImage": "https://portfolioluis.s3.sa-east-1.amazonaws.com/github-blog.png",
+      "urlImage": "https://raw.githubusercontent.com/luiszkm/Imagens/main/portfolio/images/github-blog.png",
       "urlGithub": "https://github.com/luiszkm/GitHubBlog",
       "urlDemo": "https://git-hub-blog-three.vercel.app/",
       "name": "Github Blog",
