@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: '/xesque.rocketseat.dev',
+        hostname: 'raw.githubusercontent.com',
         pathname: '/**',
       },
     ],

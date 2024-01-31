@@ -1,6 +1,7 @@
 'use client'
 import { useRouter, useParams, usePathname } from 'next/navigation'
 
+
 export function LanguageSwitcher() {
   const params = useParams()
   const enInactivated = params.locale === 'en'
@@ -9,6 +10,7 @@ export function LanguageSwitcher() {
   const { replace } = useRouter()
 
   const handleLocaleChange = (language: string) => {
+    
     if (path === '/pt' || path === '/') {
       return replace(language)
     }
@@ -35,7 +37,7 @@ export function LanguageSwitcher() {
       <img
         className={enInactivated ? '' : 'opacity-20 cursor-pointer'}
         src="https://img.icons8.com/color/32/null/usa.png"
-        alt="Bandeira do EUA"
+        alt="Bandeira dos EUA"
         title="Pt-BR"
         width={32}
         height={32}

@@ -15,7 +15,7 @@
   ],
   "projects": [
     {
-      "urlImage": "./public/img/coffee-delivery.png",
+      "urlImage": "https://raw.githubusercontent.com/luiszkm/Imagens/main/portfolio/images/coffee-delivery.png",
       "urlGithub": "https://github.com/luiszkm/CoffeeDeleivery",
       "urlDemo": "https://coffee-deleivery.vercel.app/",
       "name": "Coffee Delivery",
@@ -32,7 +32,7 @@
       "description":"descriptionCoffeeDelivery"
     },
     {
-      "urlImage": "public/img/coffee-delivery.png",
+      "urlImage": "https://raw.githubusercontent.com/luiszkm/Imagens/main/portfolio/images/github-blog.png",
       "urlGithub": "https://github.com/luiszkm/GitHubBlog",
       "urlDemo": "https://git-hub-blog-three.vercel.app/",
       "name": "Github Blog",

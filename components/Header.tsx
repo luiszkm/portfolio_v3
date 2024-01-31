@@ -3,6 +3,8 @@ import { NavMenu } from './NavMenu'
 
 import { LanguageSwitcher } from './languageSwitcher'
 import { DarkModeButton } from './DarkMode'
+import { useRouter, useParams, usePathname } from 'next/navigation'
+
 
 import { useTranslations } from 'next-intl'
 import { useContext } from 'react'
@@ -12,6 +14,9 @@ import Link from 'next/link'
 export function Header() {
   const { handleMenu, menu } = useContext(menuContext)
   const t = useTranslations('Header')
+  const params = useParams()
+  const path = usePathname()
+  const pathLocale = params.locale === 'en' ? '/' : 'pt'
 
   return (
     <header
@@ -31,7 +36,7 @@ export function Header() {
               className="relative group">
               <Link
                 className=""
-                href={'/'}
+                href={`${pathLocale == "/" ? '/' : '/pt'}`}
                 onClick={() => {
                   handleMenu('home')
                 }}
@@ -47,7 +52,7 @@ export function Header() {
         
           <li className="relative group">
             <Link
-              href={'/'}
+              href={`${pathLocale == "/" ? '/' : '/pt'}`}
               onClick={() => {
                 handleMenu('skills')
               }}
@@ -61,7 +66,12 @@ export function Header() {
               />
           </li>
           <li className="relative group">
-            <Link href={'/projects'}>{t('projects')}</Link>
+            <Link
+               onClick={() => {
+                handleMenu('skills')
+              }}
+              href={pathLocale == "/" ? "/projects" : `${pathLocale}/projects`}>
+              {t('projects')}</Link>
             <div
                 className="w-0 h-0.5 m-auto bg-pink-700
                 transition-all duration-500 ease-in-out
