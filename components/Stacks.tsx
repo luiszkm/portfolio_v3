@@ -3,8 +3,6 @@ export function Stacks() {
   return (
     <div className='flex gap-4 w-full flex-wrap items-center py-4  justify-center relative ' >
 
-    
-
       <div className='w-8 h-8 flex items-center justify-center relative  rounded-lg hover:bottom-1'>
         <img title="C-Sharp" width={32} height={32}
           src="https://xesque.rocketseat.dev/platform/tech/c-sharp.svg" alt="C-Sharp"/>
