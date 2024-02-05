@@ -8,7 +8,7 @@
     "pretense": "Estou sempre em busca de aperfeiçoar meus conhecimentos de acordo com a demanda do mercado, além de estar buscando a Especialização do ecossistema .NET e também da fluência do inglês"
   },
   "Header": {
-    "about": "Sobre Mim",
+    "home": "Início",
     "skills": "skills",
     "hobbies": "hobbies",
     "formation": "Formação",
@@ -27,7 +27,7 @@
       "feat2": "Listagem do perfil , imagem, número de seguidores, nome e outras informações disponíveis pela API do GitHub.)",
       "feat3": "Listar e filtrar todas as issues do repositório com um pequeno resumo do conteúdo dela",
       "feat4": "Criar uma página para exibir um post (issue) completo",
-      "feat5": "Exibir sua foto no Gihub no blogue"
+      "feat5": "Exibir sua foto no Github no blogue"
     }
   }
 }
