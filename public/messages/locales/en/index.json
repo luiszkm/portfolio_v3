@@ -29,7 +29,7 @@
       "feat2": "Profile listing, picture, number of followers, name, and other information available via the GitHub API.)",
       "feat3": "List and filter all issues in the repository with a short summary of its contents",
       "feat4": "Create a page to display a complete post (issue)",
-      "feat5": "Exibir sua foto no Gihub no blogue"
+      "feat5": "Display your Github photo on the blog"
     }
   }
 }
